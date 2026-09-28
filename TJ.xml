@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="436"
+        mnc="03"
+        carrier="Internet"
+        apn="internet"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default"
+    />
+    <apn
+        mcc="436"
+        mnc="04"
+        carrier="balilon"
+        apn="balilon"
+        type="default,supl"
+    />
+    <apn
+        mcc="436"
+        mnc="04"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="ims"
+    />
+    <apn
+        mcc="436"
+        mnc="01"
+        carrier="Tcell"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="436"
+        mnc="02"
+        carrier="Tcell"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="436"
+        mnc="03"
+        carrier="Megafon"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="436"
+        mnc="04"
+        carrier="Babilon-M"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="436"
+        mnc="05"
+        carrier="Tacom"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="436"
+        mnc="12"
+        carrier="Tcell"
+        apn="default"
+        type="default,supl"
+    />
+</apns>

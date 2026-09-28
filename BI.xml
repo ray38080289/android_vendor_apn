@@ -12,4 +12,46 @@
         apn="africellnet"
         type="default,supl"
     />
+    <apn
+        mcc="642"
+        mnc="01"
+        carrier="Spacetel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="642"
+        mnc="02"
+        carrier="Tempo"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="642"
+        mnc="03"
+        carrier="Onatel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="642"
+        mnc="07"
+        carrier="Smart Mobile"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="642"
+        mnc="08"
+        carrier="HiTs Telecom"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="642"
+        mnc="82"
+        carrier="Leo"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

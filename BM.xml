@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="350"
+        mnc="000"
+        carrier="Internet"
+        apn="web.c1.bm"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,fota"
+    />
+    <apn
+        mcc="350"
+        mnc="000"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="350"
+        mnc="000"
+        carrier="HOS"
+        apn="hos"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+    />
+</apns>

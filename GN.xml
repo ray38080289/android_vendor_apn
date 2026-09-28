@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="611"
+        mnc="01"
+        carrier="internet"
+        apn="internetogn"
+        password="orange"
+        type="default,supl"
+        user="orange"
+        user_editable="false"
+    />
+    <apn
+        mcc="611"
+        mnc="01"
+        carrier="Orange S.A."
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="611"
+        mnc="02"
+        carrier="Sotelgui"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="611"
+        mnc="03"
+        carrier="Telecel Guinee"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="611"
+        mnc="04"
+        carrier="MTN"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="611"
+        mnc="05"
+        carrier="Cellcom"
+        apn="default"
+        type="default,supl"
+    />
+</apns>

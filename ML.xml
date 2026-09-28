@@ -60,4 +60,33 @@
         type="default,supl"
         user="wap"
     />
+    <apn
+        mcc="610"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="610"
+        mnc="02"
+        carrier="HOS"
+        apn="hos"
+        protocol="IPV4V6"
+        type="xcap"
+        user_visible="false"
+    />
+    <apn
+        mcc="610"
+        mnc="02"
+        carrier="Orange Wap ML"
+        apn="wap"
+        password="wap"
+        port="8080"
+        proxy="10.109.4.35"
+        type="default"
+        user="wap"
+    />
 </apns>

@@ -44,4 +44,11 @@
         type="default,supl"
         user="Wap"
     />
+    <apn
+        mcc="546"
+        mnc="01"
+        carrier="Mobilis"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

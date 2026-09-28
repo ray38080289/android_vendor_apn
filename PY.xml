@@ -95,4 +95,93 @@
         type="mms"
         user=""
     />
+    <apn
+        mcc="744"
+        mnc="01"
+        carrier="VOXINTERNET"
+        apn="vox.internet"
+        password=""
+        type="default,ia,supl"
+        user=""
+    />
+    <apn
+        mcc="744"
+        mnc="02"
+        carrier="Internet Claro"
+        apn="igprs.claro.com.py"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl,xcap"
+    />
+    <apn
+        mcc="744"
+        mnc="02"
+        carrier="XCAP(wifi)"
+        apn="igprs.claro.com.py"
+        network_type_bitmask="18"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="744"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="744"
+        mnc="04"
+        carrier="Ineternet TIGO"
+        apn="internet.tigo.py"
+        password=""
+        type="default,ia,supl"
+        user=""
+    />
+    <apn
+        mcc="744"
+        mnc="05"
+        carrier="Personal IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="ims"
+        user_editable="false"
+    />
+    <apn
+        mcc="744"
+        mnc="05"
+        carrier="Personal UT"
+        apn="ut"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="xcap"
+        user_editable="false"
+    />
+    <apn
+        mcc="744"
+        mnc="05"
+        carrier="Personal SOS"
+        apn="sos"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="emergency"
+        user_editable="false"
+    />
+    <apn
+        mcc="744"
+        mnc="01"
+        carrier="Paraguay:Voxx:Modem"
+        apn="vox.wap"
+        authtype="1"
+        mmsc="http://www.vox.com.py/"
+        mmsproxy="172.24.97.29"
+        port="8080"
+        type="dun"
+    />
 </apns>

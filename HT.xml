@@ -29,4 +29,38 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="372"
+        mnc="02"
+        carrier="Haiti:Digicel:Internet"
+        apn="wap.digicelha.com"
+        authtype="1"
+        type="default"
+    />
+    <apn
+        mcc="372"
+        mnc="02"
+        carrier="Haiti:Digicel:Mms"
+        apn="wap.digicelha.com"
+        authtype="1"
+        mmsc="http://mmc.digicelhaiti.com/servlets/mms"
+        mmsport="9201"
+        mmsproxy="172.20.200.12"
+        password="wap01ha"
+        type="mms"
+        user="wapha"
+    />
+    <apn
+        mcc="372"
+        mnc="02"
+        carrier="Haiti:Digicel:Modem"
+        apn="wap.digicelha.com"
+        authtype="1"
+        mmsc="http://wapdigicel.com"
+        password="wap01ha"
+        port="8080"
+        proxy="172.20.200.12"
+        type="dun"
+        user="wapha"
+    />
 </apns>

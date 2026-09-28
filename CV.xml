@@ -15,4 +15,18 @@
         type="default"
         user=""
     />
+    <apn
+        mcc="625"
+        mnc="01"
+        carrier="CVMOVEL"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="625"
+        mnc="02"
+        carrier="T+"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

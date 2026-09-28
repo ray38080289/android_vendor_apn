@@ -54,4 +54,37 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="363"
+        mnc="02"
+        carrier="INTERNET Aruba"
+        apn="web.digicelaruba.com"
+        authtype="1"
+        password=""
+        type="default,supl,dun"
+        user=""
+    />
+    <apn
+        mcc="363"
+        mnc="020"
+        carrier="INTERNET Aruba"
+        apn="web.digicelaruba.com"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="363"
+        mnc="020"
+        carrier="MMS Digicel"
+        apn="wap"
+        authtype="1"
+        mmsc="http://mms.digicelgroup.com"
+        mmsport="8080"
+        mmsproxy="172.16.7.12"
+        password=""
+        type="mms"
+        user=""
+    />
 </apns>

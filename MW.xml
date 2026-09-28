@@ -12,4 +12,18 @@
         apn="internet"
         type="default,supl"
     />
+    <apn
+        mcc="650"
+        mnc="01"
+        carrier="TNM"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="650"
+        mnc="10"
+        carrier="Airtel"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

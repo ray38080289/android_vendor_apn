@@ -24,4 +24,18 @@
         type="mms"
         user="orange"
     />
+    <apn
+        mcc="614"
+        mnc="04"
+        carrier="Orange"
+        apn="orange.ne"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="614"
+        mnc="04"
+        carrier="Orange Internet"
+        apn="orange.ne"
+        type="default"
+    />
 </apns>

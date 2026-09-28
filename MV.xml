@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="472"
+        mnc="02"
+        carrier="Ooredoo Maldives"
+        apn="ooredoodata"
+        mmsc="http://mms.ooredoo.mv"
+        mmsport="8080"
+        mmsproxy="172.24.10.20"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="472"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="472"
+        mnc="02"
+        carrier="XCAP"
+        apn="xcap"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="xcap"
+    />
+    <apn
+        mcc="472"
+        mnc="01"
+        carrier="Dhiraagu"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="472"
+        mnc="02"
+        carrier="Wataniya"
+        apn="default"
+        type="default,supl"
+    />
+</apns>

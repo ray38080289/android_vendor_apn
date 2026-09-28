@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="618"
+        mnc="07"
+        carrier="Orange"
+        apn="orange"
+        type="default,supl"
+        user_editable="false"
+    />
+    <apn
+        mcc="618"
+        mnc="20"
+        carrier="LTC Mobile"
+        apn="ltcmobile"
+        authtype="1"
+        password="ltcmobile"
+        type="default"
+        user="ltcmobile"
+    />
+    <apn
+        mcc="618"
+        mnc="20"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="618"
+        mnc="01"
+        carrier="Lonestar Cell"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="618"
+        mnc="02"
+        carrier="Libercell"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="618"
+        mnc="04"
+        carrier="Comium"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="618"
+        mnc="07"
+        carrier="Cellcom"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="618"
+        mnc="20"
+        carrier="LIBTELCO"
+        apn="default"
+        type="default,supl"
+    />
+</apns>

@@ -67,4 +67,58 @@
         type="default,supl"
         user="internet"
     />
+    <apn
+        mcc="608"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="608"
+        mnc="01"
+        carrier="HOS"
+        apn="hos"
+        protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="608"
+        mnc="01"
+        carrier="Orange Wap SN"
+        apn="wap"
+        password="wap"
+        port="8080"
+        proxy="172.16.30.9"
+        type="default"
+        user="wap"
+    />
+    <apn
+        mcc="608"
+        mnc="01"
+        carrier="Orange Web SN"
+        apn="internet"
+        password="internet"
+        type="default"
+        user="internet"
+    />
+    <apn
+        mcc="608"
+        mnc="02"
+        carrier="Tigo Internet SN"
+        apn="web.sentel.com"
+        type="default,supl"
+    />
+    <apn
+        mcc="608"
+        mnc="03"
+        carrier="Expresso Internet SN"
+        apn="expresso"
+        password="wap"
+        port="8080"
+        proxy="10.71.123.69"
+        type="default"
+        user="wap"
+    />
 </apns>

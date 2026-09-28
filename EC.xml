@@ -78,4 +78,170 @@
         type="mms"
         user="movistar"
     />
+    <apn
+        mcc="740"
+        mnc="00"
+        carrier="Movistar INTERNET"
+        apn="internet.movistar.com.ec"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        password="movistar"
+        protocol="IPV4V6"
+        type="default,ia,supl,xcap"
+        user="movistar"
+    />
+    <apn
+        mcc="740"
+        mnc="00"
+        carrier="Movistar XCAP"
+        apn="internet.movistar.com.ec"
+        network_type_bitmask="18"
+        password="movistar"
+        protocol="IPV4V6"
+        type="xcap"
+        user="movistar"
+        user_visible="false"
+    />
+    <apn
+        mcc="740"
+        mnc="00"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="740"
+        mnc="01"
+        carrier="Internet Claro"
+        apn="internet.claro.com.ec"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,ia,supl,xcap"
+    />
+    <apn
+        mcc="740"
+        mnc="01"
+        carrier="XCAP(wifi)"
+        apn="internet.claro.com.ec"
+        network_type_bitmask="18"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+        user_visible="false"
+    />
+    <apn
+        mcc="740"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="740"
+        mnc="02"
+        carrier="CNT Internet"
+        apn="internet.cnt.net.ec"
+        authtype="3"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="740"
+        mnc="02"
+        carrier="CNT VoLTE"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+        user_editable="false"
+    />
+    <apn
+        mcc="740"
+        mnc="02"
+        carrier="CNT UT"
+        apn="xcap.volte.ims.cnt.net.ec"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="xcap"
+        user_editable="false"
+    />
+    <apn
+        mcc="740"
+        mnc="00"
+        carrier="Movistar INTERNET"
+        apn="internet.movistar.com.ec"
+        password="movistar"
+        type="default"
+        user="movistar"
+    />
+    <apn
+        mcc="740"
+        mnc="00"
+        carrier="Movistar WAP"
+        apn="wap.movistar.com.ec"
+        password="movistar"
+        port="9001"
+        proxy="10.3.5.50"
+        type="default"
+        user="movistar"
+    />
+    <apn
+        mcc="740"
+        mnc="01"
+        carrier="Internet Claro"
+        apn="internet.claro.com.ec"
+        type="default,supl"
+    />
+    <apn
+        mcc="740"
+        mnc="010"
+        carrier="Internet Claro"
+        apn="internet.claro.com.ec"
+        type="default,supl"
+    />
+    <apn
+        mcc="740"
+        mnc="010"
+        carrier="Claro Internet"
+        apn="internet.porta.com.ec"
+        authtype="1"
+        password=""
+        type="default,supl,dun"
+        user=""
+    />
+    <apn
+        mcc="740"
+        mnc="010"
+        carrier="MMS Claro"
+        apn="mms.claro.com.ec"
+        authtype="1"
+        mmsc="http://iesmms.porta.com.ec/"
+        mmsport="8799"
+        mmsproxy="216.250.208.94"
+        password="portamms2003"
+        type="mms"
+        user="portamms"
+    />
+    <apn
+        mcc="740"
+        mnc="02"
+        carrier="CNT 3G"
+        apn="internet3gsp.alegro.net.ec"
+        type="default,supl"
+    />
+    <apn
+        mcc="740"
+        mnc="02"
+        carrier="CNT MMS"
+        apn="mms.alegro.net.ec"
+        mmsc="http://mms.alegro.net.ec/mms/"
+        mmsport="8080"
+        mmsproxy="10.4.85.3"
+        type="mms"
+    />
 </apns>

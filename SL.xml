@@ -12,4 +12,54 @@
         apn="africellnet"
         type="default,supl"
     />
+    <apn
+        mcc="619"
+        mnc="01"
+        carrier="Orange"
+        apn="internet"
+        type="default,supl"
+        user_editable="false"
+    />
+    <apn
+        mcc="619"
+        mnc="01"
+        carrier="Airtel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="619"
+        mnc="02"
+        carrier="Tigo"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="619"
+        mnc="03"
+        carrier="Africell"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="619"
+        mnc="04"
+        carrier="Comium"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="619"
+        mnc="05"
+        carrier="Africell"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="619"
+        mnc="25"
+        carrier="Mobitel"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

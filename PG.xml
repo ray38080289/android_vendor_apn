@@ -28,4 +28,58 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="537"
+        mnc="04"
+        carrier="Vodafone PNG"
+        apn="internet"
+        type="default,ia"
+    />
+    <apn
+        mcc="537"
+        mnc="04"
+        carrier="Vodafone PNG MMS"
+        apn="mms"
+        mmsc="http://192.168.103.68:38090/was"
+        mmsport="8080"
+        mmsproxy="192.168.103.141"
+        type="mms"
+    />
+    <apn
+        mcc="537"
+        mnc="04"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="537"
+        mnc="01"
+        carrier="BeMobile"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="537"
+        mnc="03"
+        carrier="PNG WAP"
+        apn="wap.digicelpng.com"
+        port="8080"
+        proxy="10.149.83.116"
+        type="default,supl"
+    />
+    <apn
+        mcc="537"
+        mnc="03"
+        carrier="Papua New Guinea:Digicel:Modem"
+        apn="wap.digicel.com.pg"
+        authtype="1"
+        mmsc="http://wapdigicel.com"
+        port="8080"
+        proxy="10.149.122.12"
+        type="dun"
+    />
 </apns>

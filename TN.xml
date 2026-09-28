@@ -117,4 +117,64 @@
         type="default,supl"
         user="internet"
     />
+    <apn
+        mcc="605"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_editable="false"
+    />
+    <apn
+        mcc="605"
+        mnc="01"
+        carrier="HOS"
+        apn="hos"
+        type="xcap"
+        user_editable="false"
+    />
+    <apn
+        mcc="605"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="605"
+        mnc="03"
+        carrier="Ooredoo Tunisia"
+        apn="internet.ooredoo.tn"
+        protocol="IPV4V6"
+        type="default,ia"
+    />
+    <apn
+        mcc="605"
+        mnc="03"
+        carrier="Ooredoo MMS"
+        apn="mms.ooredoo.tn"
+        mmsc="http://mmsc.ooredoo.tn"
+        mmsport="80"
+        mmsproxy="10.3.2.100"
+        type="mms"
+    />
+    <apn
+        mcc="605"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="605"
+        mnc="03"
+        carrier="HOS"
+        apn="hos"
+        protocol="IPV4V6"
+        type="xcap"
+    />
 </apns>

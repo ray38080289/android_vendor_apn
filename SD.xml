@@ -65,4 +65,39 @@
         type="default,supl"
         user="sudani"
     />
+    <apn
+        mcc="634"
+        mnc="01"
+        carrier="Zain SD"
+        apn="internet"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="634"
+        mnc="01"
+        carrier="Zain SD"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="634"
+        mnc="02"
+        carrier="MTN"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="634"
+        mnc="07"
+        carrier="Sudani One"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="634"
+        mnc="09"
+        carrier="Privet Network"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

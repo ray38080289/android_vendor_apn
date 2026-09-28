@@ -111,4 +111,114 @@
         apn="bulsat.com"
         type="default,supl"
     />
+    <apn
+        mcc="284"
+        mnc="01"
+        carrier="M-Tel Internet"
+        apn="wap-gprs.mtel.bg"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="284"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IP"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="284"
+        mnc="01"
+        carrier="HOS"
+        apn="hos"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="284"
+        mnc="03"
+        carrier="VIVACOM Internet"
+        apn="Internet.vivacom.bg"
+        password="vivacom"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,ia,supl"
+        user="vivacom"
+    />
+    <apn
+        mcc="284"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="284"
+        mnc="03"
+        carrier="hos"
+        apn="hos"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="284"
+        mnc="05"
+        carrier="Telenor Internet"
+        apn="telenorbg"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="284"
+        mnc="05"
+        carrier="Telenor MMS"
+        apn="mms"
+        mmsc="http://mmsc"
+        mmsport="8004"
+        mmsproxy="192.168.87.11"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="284"
+        mnc="05"
+        carrier="Telenor VoLTE"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="284"
+        mnc="01"
+        carrier="M-Tel"
+        apn="wap-gprs.mtel.bg"
+        type="default,supl"
+    />
+    <apn
+        mcc="284"
+        mnc="03"
+        carrier="Vivacom WAP"
+        apn="wap.vivacom.bg"
+        password="wap"
+        port="8080"
+        proxy="192.168.123.123"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="284"
+        mnc="13"
+        carrier="MAX TELECOM"
+        apn="apn.maxtelecom.bg"
+        type="default,supl"
+    />
 </apns>

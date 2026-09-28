@@ -14,4 +14,18 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="648"
+        mnc="03"
+        carrier="Telecel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="648"
+        mnc="04"
+        carrier="Econet"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

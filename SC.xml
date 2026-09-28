@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="633"
+        mnc="01"
+        carrier="Cable &amp; Wireless"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="633"
+        mnc="02"
+        carrier="Mediatech International"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="633"
+        mnc="10"
+        carrier="Airtel"
+        apn="default"
+        type="default,supl"
+    />
+</apns>

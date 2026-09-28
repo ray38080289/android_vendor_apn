@@ -159,4 +159,140 @@
         apn="websfr"
         type="default,supl"
     />
+    <apn
+        mcc="647"
+        mnc="00"
+        carrier="IA"
+        apn=""
+        protocol="IPV6"
+        type="ia"
+    />
+    <apn
+        mcc="647"
+        mnc="00"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="647"
+        mnc="02"
+        carrier="Only Internet"
+        apn="internet"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="647"
+        mnc="02"
+        carrier="Only MMS"
+        apn="mms"
+        mmsc="http://mmsc.telcooi.re:9091"
+        type="mms"
+    />
+    <apn
+        mcc="647"
+        mnc="03"
+        carrier="Free Re"
+        apn="free.re"
+        mmsc="http://mms.free.re"
+        type="default,ia,mms"
+    />
+    <apn
+        mcc="647"
+        mnc="03"
+        carrier="Telco OI Re"
+        apn="internet.telco.re"
+        mmsc="http://mms.telco.re"
+        mvno_match_data="f006"
+        mvno_type="gid"
+        type="default,ia,mms"
+    />
+    <apn
+        mcc="647"
+        mnc="04"
+        carrier="zeopdata"
+        apn="zeopdata"
+        type="default"
+    />
+    <apn
+        mcc="647"
+        mnc="04"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="647"
+        mnc="04"
+        carrier="zeopservice"
+        apn="zeopservice"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="647"
+        mnc="10"
+        carrier="SFR webphone"
+        apn="sl2sfr"
+        mmsc="http://mms"
+        mmsport="8080"
+        mmsproxy="10.0.224.145"
+        type="default,hipri,mms,xcap"
+    />
+    <apn
+        mcc="647"
+        mnc="10"
+        carrier="SFR option modem"
+        apn="websfr"
+        type="dun"
+    />
+    <apn
+        mcc="647"
+        mnc="10"
+        carrier="SFR IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="647"
+        mnc="00"
+        carrier="Orange RE"
+        apn="orangerun"
+        password="orange"
+        type="default"
+        user="orange"
+    />
+    <apn
+        mcc="647"
+        mnc="10"
+        carrier="Coriolis WAP"
+        apn="fnetcoriolis"
+        mvno_match_data="12"
+        mvno_type="gid"
+        type="default,supl"
+    />
+    <apn
+        mcc="647"
+        mnc="10"
+        carrier="Coriolis MMS"
+        apn="mmscoriolis"
+        mmsc="http://mmscoriolis"
+        mmsport="8080"
+        mmsproxy="10.143.156.6"
+        mvno_match_data="12"
+        mvno_type="gid"
+        type="mms"
+    />
 </apns>

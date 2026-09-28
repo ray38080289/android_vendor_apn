@@ -28,4 +28,30 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="362"
+        mnc="91"
+        carrier="Internet"
+        apn="premium"
+        type="default"
+    />
+    <apn
+        mcc="362"
+        mnc="69"
+        carrier="Curacao:Digicel:Internet"
+        apn="web.digicelcuracao.com"
+        authtype="1"
+        type="default"
+    />
+    <apn
+        mcc="362"
+        mnc="69"
+        carrier="Curacao:Digicel:Modem"
+        apn="wap"
+        authtype="1"
+        mmsc="http://wapdigicel.com"
+        port="8080"
+        proxy="172.16.7.12"
+        type="dun"
+    />
 </apns>

@@ -41,4 +41,41 @@
         mmsproxy="10.33.15.133"
         type="mms"
     />
+    <apn
+        mcc="631"
+        mnc="02"
+        carrier="Unitel"
+        apn="internet.unitel.co.ao"
+        password="guest"
+        type="default,ia,supl"
+        user="guest"
+    />
+    <apn
+        mcc="631"
+        mnc="02"
+        carrier="IMS"
+        apn="ims.unitel.co.ao"
+        type="ims"
+    />
+    <apn
+        mcc="631"
+        mnc="02"
+        carrier="XCAP"
+        apn="xcap.unitel.co.ao"
+        type="xcap"
+    />
+    <apn
+        mcc="631"
+        mnc="02"
+        carrier="UNITEL"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="631"
+        mnc="04"
+        carrier="MOVICEL"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

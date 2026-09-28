@@ -468,4 +468,150 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="374"
+        mnc="12"
+        carrier="Bmobile internet"
+        apn="internet"
+        authtype="1"
+        password=""
+        type="default,supl,dun"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="13"
+        carrier="MMS Trinidad"
+        apn="wap.digiceltt.com"
+        authtype="1"
+        mmsc="http://mmc.digiceltt.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.20.6.12"
+        password="wap"
+        type="mms"
+        user="wap"
+    />
+    <apn
+        mcc="374"
+        mnc="120"
+        carrier="Bmobile internet"
+        apn="internet"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="121"
+        carrier="Bmobile internet"
+        apn="internet"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="122"
+        carrier="Bmobile internet"
+        apn="internet"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="123"
+        carrier="Bmobile internet"
+        apn="internet"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="124"
+        carrier="Bmobile internet"
+        apn="internet"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="125"
+        carrier="Bmobile internet"
+        apn="internet"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="126"
+        carrier="Bmobile internet"
+        apn="internet"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="127"
+        carrier="Bmobile internet"
+        apn="internet"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="128"
+        carrier="Bmobile internet"
+        apn="internet"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="129"
+        carrier="Bmobile internet"
+        apn="internet"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="130"
+        carrier="INTERNET Trinidad"
+        apn="web.digiceltt.com"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="130"
+        carrier="MMS Trinidad"
+        apn="wap.digiceltt.com"
+        authtype="1"
+        mmsc="http://mmc.digiceltt.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.20.6.12"
+        password="wap"
+        type="mms"
+        user="wap"
+    />
 </apns>

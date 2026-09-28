@@ -76,4 +76,90 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="348"
+        mnc="170"
+        carrier="FLOW Postpaid Internet"
+        apn="internet"
+        type="default"
+    />
+    <apn
+        mcc="348"
+        mnc="170"
+        carrier="FLOW Prepaid Internet"
+        apn="ppinternet"
+        type="default"
+    />
+    <apn
+        mcc="348"
+        mnc="170"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="348"
+        mnc="17"
+        carrier="Lime Internet Postpaid"
+        apn="internet"
+        password=""
+        type="default,supl,dun"
+        user=""
+    />
+    <apn
+        mcc="348"
+        mnc="17"
+        carrier="Lime Postpaid MMS"
+        apn="multimedia"
+        mmsc="http://mmsc"
+        mmsport="8799"
+        mmsproxy="10.20.5.34"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="348"
+        mnc="77"
+        carrier="Bvi:Digicel:Internet"
+        apn="wap.digicelbvi.com"
+        authtype="1"
+        type="default"
+    />
+    <apn
+        mcc="348"
+        mnc="77"
+        carrier="Bvi:Digicel:Mms"
+        apn="wap.digicelbvi.com"
+        authtype="1"
+        mmsc="http://mmc.digiceljamaica.com/servlets/mms"
+        mmsport="9201"
+        mmsproxy="172.16.7.12"
+        password="wapbvi"
+        type="mms"
+        user="wapbvi"
+    />
+    <apn
+        mcc="348"
+        mnc="77"
+        carrier="Bvi:Digicel:Modem"
+        apn="wap.digicelbvi.com"
+        authtype="1"
+        mmsc="http://wapdigicel.com"
+        password="wapbvi"
+        port="8080"
+        proxy="172.16.7.12"
+        type="dun"
+        user="wapbvi"
+    />
+    <apn
+        mcc="348"
+        mnc="170"
+        carrier="Bvi:Lime:Modem"
+        apn="internet"
+        authtype="1"
+        mmsc="http://www.time4lime.com/"
+        type="dun"
+    />
 </apns>

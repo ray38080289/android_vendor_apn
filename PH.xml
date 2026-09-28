@@ -166,4 +166,182 @@
         roaming_protocol="IPV4V6"
         type="xcap"
     />
+    <apn
+        mcc="515"
+        mnc="02"
+        carrier="Globe Prepaid"
+        apn="http.globe.com.ph"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="02"
+        carrier="Globe Postpaid"
+        apn="internet.globe.com.ph"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="02"
+        carrier="Cherry Prepaid"
+        apn="internet.cherry.com.ph"
+        mvno_match_data="Cherry Prepaid"
+        mvno_type="spn"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="02"
+        carrier="Cherry Prepaid MMS"
+        apn="mms.globe.com.ph"
+        mmsc="http://192.40.100.22:10021/mmsc"
+        mmsport="8080"
+        mmsproxy="203.177.42.21"
+        mvno_match_data="Cherry Prepaid"
+        mvno_type="spn"
+        type="mms"
+    />
+    <apn
+        mcc="515"
+        mnc="02"
+        carrier="Globe Prepaid"
+        apn="http.globe.com.ph"
+        mvno_match_data="TM"
+        mvno_type="spn"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="02"
+        carrier="MyGlobeMMS"
+        apn="mms.globe.com.ph"
+        mmsc="http://192.40.100.22:10021/mmsc"
+        mmsport="8080"
+        mmsproxy="203.177.42.21"
+        mvno_match_data="TM"
+        mvno_type="spn"
+        type="mms"
+    />
+    <apn
+        mcc="515"
+        mnc="02"
+        carrier="Globe Prepaid"
+        apn="http.globe.com.ph"
+        mvno_match_data="ABS-CBN"
+        mvno_type="spn"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="02"
+        carrier="MyGlobeMMS"
+        apn="mms.globe.com.ph"
+        mmsc="http://192.40.100.22:10021/mmsc"
+        mmsport="8080"
+        mmsproxy="203.177.42.21"
+        mvno_match_data="ABS-CBN"
+        mvno_type="spn"
+        type="mms"
+    />
+    <apn
+        mcc="515"
+        mnc="03"
+        carrier="Smart Internet"
+        apn="internet"
+        authtype="1"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="05"
+        carrier="Sun INTERNET"
+        apn="minternet"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="18"
+        carrier="RED Internet"
+        apn="redinternet"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="18"
+        carrier="RED MOBILE MMS"
+        apn="redmms"
+        mmsc="http://10.102.61.193:8002/mmsc"
+        mmsport="8080"
+        mmsproxy="10.138.3.35"
+        type="mms"
+    />
+    <apn
+        mcc="515"
+        mnc="66"
+        carrier="Internet"
+        apn="internet.dito.ph"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="02"
+        carrier="myGlobe Connect"
+        apn="www.globe.com.ph"
+        port="8080"
+        proxy="203.177.42.214"
+        type="default,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="02"
+        carrier="Cherry Mobile Internet"
+        apn="internet.cherry.com.ph"
+        type="default"
+    />
+    <apn
+        mcc="515"
+        mnc="03"
+        carrier="SMARTLTE"
+        apn="smartlte"
+        type="default,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="03"
+        carrier="Smart GPRS"
+        apn="Smart1"
+        port="8080"
+        proxy="10.102.61.46"
+        type="default,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="05"
+        carrier="SUN WAP GPRS"
+        apn="wap"
+        port="8080"
+        proxy="202.138.159.78"
+        type="default,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="05"
+        carrier="Sun SBW"
+        apn="fbband"
+        type="default,supl"
+    />
+    <apn
+        mcc="515"
+        mnc="18"
+        carrier="Redmms"
+        apn="real.globe.com.ph"
+        mmsc="http://10.102.61.193:8002/mmsc"
+        mmsport="8080"
+        mmsproxy="10.138.3.35"
+        type="mms"
+    />
 </apns>

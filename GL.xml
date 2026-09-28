@@ -31,4 +31,36 @@
         type="mms"
         user=""
     />
+    <apn
+        mcc="290"
+        mnc="01"
+        carrier="Tele Internet"
+        apn="internet"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="290"
+        mnc="01"
+        carrier="Tele MMS"
+        apn="mms"
+        mmsc="http://mms.tele.gl/mms/wapenc"
+        mmsport="8080"
+        mmsproxy="10.112.222.37"
+        type="mms"
+    />
+    <apn
+        mcc="290"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
+    />
+    <apn
+        mcc="290"
+        mnc="01"
+        carrier="hos"
+        apn="hos"
+        type="cbs,xcap"
+        user_visible="false"
+    />
 </apns>

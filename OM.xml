@@ -119,4 +119,76 @@
         type="default,supl"
         user="test"
     />
+    <apn
+        mcc="422"
+        mnc="02"
+        carrier="Oman Mobile"
+        apn="wap"
+        password="wap"
+        type="default,ia,supl"
+        user="wap"
+    />
+    <apn
+        mcc="422"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="422"
+        mnc="03"
+        carrier="Ooredoo Internet"
+        apn="ooredoo"
+        protocol="IPV4V6"
+        type="default"
+    />
+    <apn
+        mcc="422"
+        mnc="03"
+        carrier="Ooredoo MMS"
+        apn="mms.ooredoo.com.om"
+        mmsc="http://10.128.240.16/servlets/mms"
+        mmsport="8080"
+        mmsproxy="10.128.240.19"
+        type="mms"
+    />
+    <apn
+        mcc="422"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="422"
+        mnc="06"
+        carrier="Internet"
+        apn="internet.vodafone.om"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,ia"
+    />
+    <apn
+        mcc="422"
+        mnc="06"
+        carrier="IMS"
+        apn="ims.vodafone.om"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="422"
+        mnc="06"
+        carrier="HOS"
+        apn="hos.vodafone.om"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+    />
 </apns>

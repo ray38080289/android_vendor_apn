@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="308"
+        mnc="03"
+        carrier="SPM Telecom"
+        apn="spmtelecom"
+        type="default"
+    />
+    <apn
+        mcc="308"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+</apns>

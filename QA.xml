@@ -92,4 +92,80 @@
         proxy="10.101.97.102"
         type="default,supl"
     />
+    <apn
+        mcc="427"
+        mnc="01"
+        carrier="Ooredoo Qa"
+        apn="data"
+        mmsc="http://mmsr.ooredoomms.qa"
+        mmsport="8080"
+        mmsproxy="10.23.8.3"
+        type="default,ia,supl,mms,xcap"
+    />
+    <apn
+        mcc="427"
+        mnc="01"
+        carrier="OQ IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="427"
+        mnc="02"
+        carrier="Vodafone Qatar"
+        apn="web.vodafone.com.qa"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="427"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="427"
+        mnc="02"
+        carrier="XCAP"
+        apn="xcap"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="xcap"
+    />
+    <apn
+        mcc="427"
+        mnc="07"
+        carrier="Vodafone Qatar"
+        apn="web.vodafone.com.qa"
+        type="default,ia"
+    />
+    <apn
+        mcc="427"
+        mnc="07"
+        carrier="Vodafone MMS"
+        apn="vodafone.com.qa"
+        mmsc="http://mms.vodafone.com.qa/mmsc"
+        mmsport="80"
+        mmsproxy="10.101.97.102"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="mms"
+    />
+    <apn
+        mcc="427"
+        mnc="07"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="427"
+        mnc="07"
+        carrier="XCAP"
+        apn="xcap"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="xcap"
+    />
 </apns>

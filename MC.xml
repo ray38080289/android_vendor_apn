@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="212"
+        mnc="10"
+        carrier="Internet"
+        apn="internet"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        type="default,ia,supl,xcap"
+    />
+    <apn
+        mcc="212"
+        mnc="10"
+        carrier="XCAP(wifi)"
+        apn="internet"
+        network_type_bitmask="18"
+        type="xcap"
+        user_visible="false"
+    />
+    <apn
+        mcc="212"
+        mnc="10"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+</apns>

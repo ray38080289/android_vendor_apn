@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="643"
+        mnc="01"
+        carrier="MCel"
+        apn="isp.mcel.mz"
+        password="guest"
+        type="default,ia,supl"
+        user="guest"
+    />
+    <apn
+        mcc="643"
+        mnc="04"
+        carrier="VM Internet"
+        apn="internet"
+        type="default,ia"
+    />
+    <apn
+        mcc="643"
+        mnc="04"
+        carrier="VM MMS"
+        apn="mms"
+        mmsc="http://mms.vm.co.mz"
+        type="mms"
+    />
+    <apn
+        mcc="643"
+        mnc="04"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
+    />
+    <apn
+        mcc="643"
+        mnc="01"
+        carrier="mCel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="643"
+        mnc="03"
+        carrier="Movitel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="643"
+        mnc="04"
+        carrier="Vodacom"
+        apn="default"
+        type="default,supl"
+    />
+</apns>

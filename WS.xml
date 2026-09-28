@@ -28,4 +28,18 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="549"
+        mnc="01"
+        carrier="Digicel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="549"
+        mnc="27"
+        carrier="Bluesky"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

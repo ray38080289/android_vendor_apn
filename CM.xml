@@ -51,4 +51,14 @@
         type="default,supl"
         user="orange"
     />
+    <apn
+        mcc="624"
+        mnc="02"
+        carrier="Orange"
+        apn="orange"
+        password="orange"
+        type="default,supl"
+        user="orange"
+        user_editable="false"
+    />
 </apns>

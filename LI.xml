@@ -15,4 +15,102 @@
         mvno_type="spn"
         type="default,ia"
     />
+    <apn
+        mcc="295"
+        mnc="01"
+        carrier="Swisscom Services"
+        apn="gprs.swisscom.ch"
+        protocol="IP"
+        type="default,ia,supl"
+        user_editable="false"
+    />
+    <apn
+        mcc="295"
+        mnc="01"
+        carrier="Swisscom MMS"
+        apn="event.swisscom.ch"
+        mmsc="http://mms.natel.ch:8079"
+        mmsport="8080"
+        mmsproxy="192.168.210.2"
+        type="mms"
+        user_editable="false"
+    />
+    <apn
+        mcc="295"
+        mnc="01"
+        carrier="Swisscom IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="295"
+        mnc="01"
+        carrier="Swisscom hos"
+        apn="hos"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IP"
+        type="xcap"
+        user_visible="false"
+    />
+    <apn
+        mcc="295"
+        mnc="02"
+        carrier="Salt Internet"
+        apn="internet"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl"
+    />
+    <apn
+        mcc="295"
+        mnc="02"
+        carrier="Salt MMS"
+        apn="mms"
+        mmsc="http://192.168.151.3:8002"
+        mmsport="8080"
+        mmsproxy="192.168.151.2"
+        type="mms"
+    />
+    <apn
+        mcc="295"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="295"
+        mnc="02"
+        carrier="HOS"
+        apn="hos"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="xcap"
+    />
+    <apn
+        mcc="295"
+        mnc="05"
+        carrier="Internet"
+        apn="free.fl1.net"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default"
+    />
+    <apn
+        mcc="295"
+        mnc="05"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
 </apns>

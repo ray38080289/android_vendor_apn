@@ -41,4 +41,55 @@
         mmsproxy="41.208.82.50"
         type="mms"
     />
+    <apn
+        mcc="606"
+        mnc="03"
+        carrier="LTT4G"
+        apn="ltt4g"
+        protocol="IPV4V6"
+        type="default,ia,supl,xcap"
+    />
+    <apn
+        mcc="606"
+        mnc="03"
+        carrier="LTTIMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="606"
+        mnc="00"
+        carrier="Libyana"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="606"
+        mnc="01"
+        carrier="Madar"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="606"
+        mnc="02"
+        carrier="Al-Jeel Phone"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="606"
+        mnc="03"
+        carrier="Libya Phone"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="606"
+        mnc="06"
+        carrier="Hatef Libya"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

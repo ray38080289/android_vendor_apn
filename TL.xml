@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="514"
+        mnc="01"
+        carrier="Telin"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="514"
+        mnc="02"
+        carrier="Timor Telecom"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="514"
+        mnc="03"
+        carrier="Viettel Timor-Leste"
+        apn="default"
+        type="default,supl"
+    />
+</apns>

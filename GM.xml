@@ -12,4 +12,32 @@
         apn="africellnet"
         type="default,supl"
     />
+    <apn
+        mcc="607"
+        mnc="01"
+        carrier="Gamcel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="607"
+        mnc="02"
+        carrier="Africel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="607"
+        mnc="03"
+        carrier="Comium"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="607"
+        mnc="04"
+        carrier="QCell"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

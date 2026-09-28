@@ -81,4 +81,115 @@
         type="default,supl,mms"
         user=""
     />
+    <apn
+        mcc="270"
+        mnc="01"
+        carrier="Post Internet"
+        apn="web.pt.lu"
+        password="web"
+        type="default,ia,supl"
+        user="web"
+    />
+    <apn
+        mcc="270"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="270"
+        mnc="01"
+        carrier="HOS"
+        apn="hos"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="xcap"
+    />
+    <apn
+        mcc="270"
+        mnc="77"
+        carrier="Tango Internet"
+        apn="internet"
+        mmsc="http://mms.tango.lu"
+        mmsport="8080"
+        mmsproxy="212.66.75.3"
+        password="tango"
+        type="default,ia,supl,mms"
+        user="tango"
+    />
+    <apn
+        mcc="270"
+        mnc="77"
+        carrier="Tango IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="270"
+        mnc="77"
+        carrier="Tango XCAP"
+        apn="hos"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="270"
+        mnc="99"
+        carrier="IA"
+        apn=""
+        type="ia"
+    />
+    <apn
+        mcc="270"
+        mnc="99"
+        carrier="Orange LUX MMS(wifi)"
+        apn="orange.lu"
+        authtype="1"
+        mmsc="http://mms.orange.lu"
+        mmsport="8080"
+        mmsproxy="212.88.139.44"
+        network_type_bitmask="18"
+        type="mms"
+        user_visible="false"
+    />
+    <apn
+        mcc="270"
+        mnc="99"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="270"
+        mnc="01"
+        carrier="LUXGSM WAP"
+        apn="wap.pt.lu"
+        password="wap"
+        port="8080"
+        proxy="194.154.192.98"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="270"
+        mnc="99"
+        carrier="Vox Mobile"
+        apn="vox.lu"
+        mmsc="http://mms.vox.lu"
+        mmsport="8080"
+        mmsproxy="212.88.139.44"
+        type="default,supl,mms"
+    />
 </apns>

@@ -26,4 +26,28 @@
         type="mms"
         user="mms"
     />
+    <apn
+        mcc="627"
+        mnc="01"
+        carrier="Orange WAP"
+        apn="orangeworld"
+        password="wap"
+        type="default,supl"
+        user="wap"
+        user_editable="false"
+    />
+    <apn
+        mcc="627"
+        mnc="01"
+        carrier="Orange GQ"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="627"
+        mnc="03"
+        carrier="Hits GQ"
+        apn="default"
+        type="default,supl"
+    />
 </apns>

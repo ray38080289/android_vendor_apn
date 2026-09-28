@@ -61,4 +61,47 @@
         type="mms"
         user=""
     />
+    <apn
+        mcc="364"
+        mnc="39"
+        carrier="BTC Postpaid Internet"
+        apn="internet.btcbahamas.com"
+        type="default"
+    />
+    <apn
+        mcc="364"
+        mnc="39"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="364"
+        mnc="49"
+        carrier="Internet"
+        apn="pda.newcomobile.com"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,ia,xcap"
+    />
+    <apn
+        mcc="364"
+        mnc="49"
+        carrier="MMS"
+        apn="mms"
+        mmsc="http://mms.bealiv.com"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="mms"
+    />
+    <apn
+        mcc="364"
+        mnc="49"
+        carrier="Aliv IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
 </apns>

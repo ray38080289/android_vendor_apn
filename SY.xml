@@ -46,4 +46,20 @@
         apn="internet"
         type="default,supl"
     />
+    <apn
+        mcc="417"
+        mnc="01"
+        carrier="Syriatel"
+        apn="net.syriatel.com"
+        port="8080"
+        proxy="172.20.5.6"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="417"
+        mnc="02"
+        carrier="MTN Internet"
+        apn=""
+        type="default,ia,supl"
+    />
 </apns>

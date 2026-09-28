@@ -313,4 +313,116 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="338"
+        mnc="050"
+        carrier="Digicel"
+        apn="Web.digiceljamaica.com"
+        type="default"
+    />
+    <apn
+        mcc="338"
+        mnc="050"
+        carrier="IMS"
+        apn="IMS"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="338"
+        mnc="050"
+        carrier="HOS"
+        apn="hos"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="xcap"
+    />
+    <apn
+        mcc="338"
+        mnc="180"
+        carrier="FLOW Postpaid Internet"
+        apn="internet"
+        type="default"
+    />
+    <apn
+        mcc="338"
+        mnc="180"
+        carrier="FLOW Prepaid Internet"
+        apn="ppinternet"
+        type="default"
+    />
+    <apn
+        mcc="338"
+        mnc="180"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="338"
+        mnc="050"
+        carrier="INTERNET Digicel"
+        apn="web.digiceljamaica.com"
+        authtype="1"
+        type="default,supl,dun"
+    />
+    <apn
+        mcc="338"
+        mnc="18"
+        carrier="Lime Internet Postpaid"
+        apn="internet"
+        authtype="1"
+        type="default,supl,dun"
+    />
+    <apn
+        mcc="338"
+        mnc="18"
+        carrier="Lime Postpaid MMS"
+        apn="multimedia"
+        authtype="1"
+        mmsc="http://mmsc"
+        mmsport="8799"
+        mmsproxy="10.20.5.34"
+        type="mms"
+    />
+    <apn
+        mcc="338"
+        mnc="18"
+        carrier="Lime Internet Prepaid"
+        apn="ppinternet"
+        type="default,supl"
+    />
+    <apn
+        mcc="338"
+        mnc="18"
+        carrier="Lime Prepaid MMS"
+        apn="ppmms"
+        mmsc="http://mmsc"
+        mmsport="8799"
+        mmsproxy="10.20.5.34"
+        type="mms"
+    />
+    <apn
+        mcc="338"
+        mnc="070"
+        carrier="Claro Web"
+        apn="internet.ideasclaro.com.jm"
+        authtype="1"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="338"
+        mnc="070"
+        carrier="Claro MMS"
+        apn="mms.ideasclaro.com.jm"
+        authtype="1"
+        mmsc="http://mms.ideasclaro.com.jm/mms/wapenc"
+        mmsport="8080"
+        mmsproxy="190.80.147.118"
+        password=""
+        type="mms"
+        user=""
+    />
 </apns>

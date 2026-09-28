@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="266"
+        mnc="01"
+        carrier="Gibtelecom"
+        apn="www.gibtele.com"
+        type="default,ia"
+    />
+    <apn
+        mcc="266"
+        mnc="01"
+        carrier="Gibtelecom MMS"
+        apn="mms.gibtele.com"
+        mmsc="http://mms:8081/"
+        mmsport="8080"
+        mmsproxy="172.17.0.5"
+        type="mms"
+    />
+    <apn
+        mcc="266"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
+    />
+    <apn
+        mcc="266"
+        mnc="01"
+        carrier="XCAP"
+        apn="hos"
+        type="xcap"
+    />
+</apns>

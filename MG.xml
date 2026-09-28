@@ -129,4 +129,51 @@
         proxy=""
         type="mms"
     />
+    <apn
+        mcc="646"
+        mnc="01"
+        carrier="Airtel Internet"
+        apn="internet.mg.airtel.com"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="646"
+        mnc="04"
+        carrier="Telma Internet"
+        apn="internet"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="646"
+        mnc="04"
+        carrier="Telma ims"
+        apn="ims"
+        type="ims"
+    />
+    <apn
+        mcc="646"
+        mnc="04"
+        carrier="Telma HOS"
+        apn="hos"
+        type="xcap"
+    />
+    <apn
+        mcc="646"
+        mnc="02"
+        carrier="Orange MG Internet"
+        apn="orangenet"
+        authtype="0"
+        type="default,supl,fota,dun"
+    />
+    <apn
+        mcc="646"
+        mnc="02"
+        carrier="Orange World MG"
+        apn="orangeworld"
+        password="orange"
+        port="8080"
+        proxy="10.150.0.115"
+        type="default"
+        user="world"
+    />
 </apns>

@@ -28,4 +28,47 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="539"
+        mnc="01"
+        carrier="U-Call"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="539"
+        mnc="43"
+        carrier="Shoreline Communication"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="539"
+        mnc="88"
+        carrier="Digicel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="539"
+        mnc="88"
+        carrier="Tonga:Digicel:Modem"
+        apn="wap"
+        authtype="1"
+        mmsc="http://wapdigicel.com"
+        port="8080"
+        proxy="172.16.7.12"
+        type="dun"
+    />
+    <apn
+        mcc="539"
+        mnc="88"
+        carrier="Tonga:Digicel:Mms"
+        apn="wap"
+        authtype="1"
+        mmsc="http://mms.digicelgroup.com"
+        mmsport="9201"
+        mmsproxy="172.16.7.12"
+        type="mms"
+    />
 </apns>

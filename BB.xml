@@ -79,4 +79,56 @@
         type="mms"
         user="wapbarb"
     />
+    <apn
+        mcc="342"
+        mnc="600"
+        carrier="FLOW Postpaid Internet"
+        apn="internet"
+        type="default"
+    />
+    <apn
+        mcc="342"
+        mnc="600"
+        carrier="FLOW Prepaid Internet"
+        apn="ppinternet"
+        type="default"
+    />
+    <apn
+        mcc="342"
+        mnc="600"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="342"
+        mnc="60"
+        carrier="Lime Internet Postpaid"
+        apn="internet"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="342"
+        mnc="60"
+        carrier="Lime Postpaid MMS"
+        apn="multimedia"
+        mmsc="http://mmsc"
+        mmsport="8799"
+        mmsproxy="10.20.5.34"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="342"
+        mnc="600"
+        carrier="Barbado:Lime:Modem"
+        apn="internet"
+        authtype="1"
+        mmsc="http://www.time4lime.com/"
+        type="dun"
+    />
 </apns>

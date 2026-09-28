@@ -33,4 +33,34 @@
         proxy="10.20.3.9"
         type="default,supl"
     />
+    <apn
+        mcc="617"
+        mnc="01"
+        carrier="Internet"
+        apn="my.t"
+        type="default,supl,xcap"
+    />
+    <apn
+        mcc="617"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
+    />
+    <apn
+        mcc="617"
+        mnc="10"
+        carrier="Emtel"
+        apn="web"
+        password="MMSC"
+        type="default,ia,supl"
+        user="cell number"
+    />
+    <apn
+        mcc="617"
+        mnc="01"
+        carrier="Orange Internet"
+        apn="orange"
+        type="default"
+    />
 </apns>

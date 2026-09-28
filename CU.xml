@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="368"
+        mnc="01"
+        carrier="Internet"
+        apn="internet"
+        authtype="1"
+        type="default,supl,dun"
+    />
+    <apn
+        mcc="368"
+        mnc="01"
+        carrier="Cubacel MMS"
+        apn="mms"
+        authtype="1"
+        mmsc="http://mms.cubacel.cu"
+        mmsport="8080"
+        mmsproxy="200.13.145.52"
+        type="mms"
+    />
+</apns>

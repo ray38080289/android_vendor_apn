@@ -28,4 +28,45 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="746"
+        mnc="02"
+        carrier="Telesur"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="746"
+        mnc="03"
+        carrier="Suriname:Digicel:Internet"
+        apn="web.digicelsr.com"
+        authtype="1"
+        type="default"
+    />
+    <apn
+        mcc="746"
+        mnc="03"
+        carrier="Suriname:Digicel:Mms"
+        apn="wap.digicelsr.com"
+        authtype="1"
+        mmsc="http://mmc.digicelsr.com/servlets/mms"
+        mmsport="9201"
+        mmsproxy="172.20.6.12"
+        password="wap"
+        type="mms"
+        user="wap"
+    />
+    <apn
+        mcc="746"
+        mnc="03"
+        carrier="Suriname:Digicel:Modem"
+        apn="wap.digicelsr.com"
+        authtype="1"
+        mmsc="http://wapdigicel.com"
+        password="wap"
+        port="8080"
+        proxy="172.20.6.12"
+        type="dun"
+        user="wap"
+    />
 </apns>

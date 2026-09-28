@@ -108,4 +108,41 @@
         type="mms"
         user=""
     />
+    <apn
+        mcc="283"
+        mnc="05"
+        carrier="Internet"
+        apn="inet.vivacell.am"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,ia"
+    />
+    <apn
+        mcc="283"
+        mnc="05"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="283"
+        mnc="05"
+        carrier="XCAP"
+        apn="hos"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="283"
+        mnc="10"
+        carrier="Orange Armenia Internet"
+        apn="Internet"
+        authtype="1"
+        type="default"
+    />
 </apns>

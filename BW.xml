@@ -45,4 +45,22 @@
         proxy="10.0.0.226"
         type="default,supl"
     />
+    <apn
+        mcc="652"
+        mnc="01"
+        carrier="Mascom Wireless"
+        apn="internet.mascom"
+        password="guest"
+        type="default,ia,supl"
+        user="guest"
+    />
+    <apn
+        mcc="652"
+        mnc="02"
+        carrier="Orange WAP BW"
+        apn="internet.orange.co.bw"
+        port="8080"
+        proxy="10.0.0.226"
+        type="default"
+    />
 </apns>

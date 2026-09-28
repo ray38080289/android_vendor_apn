@@ -159,4 +159,56 @@
         type="default,supl"
         user=""
     />
+    <apn
+        mcc="286"
+        mnc="01"
+        carrier="Turkcell Internet"
+        apn="internet"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="286"
+        mnc="02"
+        carrier="Vodafone Internet"
+        apn="internet"
+        password="vodafone"
+        type="default,ia,supl"
+        user="vodafone"
+    />
+    <apn
+        mcc="286"
+        mnc="02"
+        carrier="Vodafone Turkey Xcap"
+        apn="hos"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="xcap"
+    />
+    <apn
+        mcc="286"
+        mnc="03"
+        carrier="Turk Telekom"
+        apn="internet"
+        protocol="IPV4V6"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="286"
+        mnc="03"
+        carrier="Turk Telekom Xcap"
+        apn="xcap"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="286"
+        mnc="02"
+        carrier="Vodafone Internet"
+        apn="internet"
+        password="vodafone"
+        type="default,supl,dun"
+        user="vodafone"
+    />
 </apns>

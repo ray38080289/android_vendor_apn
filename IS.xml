@@ -107,4 +107,84 @@
         mmsproxy="213.167.138.210"
         type="default,supl,mms"
     />
+    <apn
+        mcc="274"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="274"
+        mnc="01"
+        carrier="HOS"
+        apn="hos"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="274"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
+    />
+    <apn
+        mcc="274"
+        mnc="02"
+        carrier="HOS"
+        apn="hos"
+        type="xcap"
+    />
+    <apn
+        mcc="274"
+        mnc="11"
+        carrier="Net Nova"
+        apn="net.nova.is"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        protocol="IPV4V6"
+        type="default,supl,xcap"
+    />
+    <apn
+        mcc="274"
+        mnc="11"
+        carrier="xcap(wifi)"
+        apn="net.nova.is"
+        network_type_bitmask="18"
+        protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="274"
+        mnc="11"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="274"
+        mnc="03"
+        carrier="Vodafone Internet"
+        apn="gprs.is"
+        authtype="0"
+        type="default,supl,fota,dun"
+    />
+    <apn
+        mcc="274"
+        mnc="03"
+        carrier="Vodafone MMS"
+        apn="mms.gprs.is"
+        authtype="0"
+        mmsc="http://mmsc.vodafone.is"
+        mmsport="8080"
+        mmsproxy="10.22.0.10"
+        type="mms"
+    />
 </apns>

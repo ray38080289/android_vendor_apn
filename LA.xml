@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="457"
+        mnc="01"
+        carrier="Internet"
+        apn="ltcnet"
+        type="default,ia,supl"
+    />
+    <apn
+        mcc="457"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
+    />
+    <apn
+        mcc="457"
+        mnc="03"
+        carrier="Unitel"
+        apn="unitel3g"
+        type="default"
+    />
+    <apn
+        mcc="457"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="457"
+        mnc="07"
+        carrier="Best5G"
+        apn="Best5G"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,xcap"
+    />
+    <apn
+        mcc="457"
+        mnc="07"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="457"
+        mnc="01"
+        carrier="LTC"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="457"
+        mnc="02"
+        carrier="ETL"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="457"
+        mnc="03"
+        carrier="Unitel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="457"
+        mnc="08"
+        carrier="Beeline"
+        apn="default"
+        type="default,supl"
+    />
+</apns>

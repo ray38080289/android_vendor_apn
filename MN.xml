@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="428"
+        mnc="33"
+        carrier="ONDO"
+        apn="internet"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default"
+    />
+    <apn
+        mcc="428"
+        mnc="33"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="428"
+        mnc="99"
+        carrier="Mobicom"
+        apn="internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="428"
+        mnc="99"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="428"
+        mnc="88"
+        carrier="Unitel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="428"
+        mnc="91"
+        carrier="Skytel"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="428"
+        mnc="98"
+        carrier="G.Mobile"
+        apn="default"
+        type="default,supl"
+    />
+    <apn
+        mcc="428"
+        mnc="99"
+        carrier="MobiCom"
+        apn="default"
+        type="default,supl"
+    />
+</apns>
